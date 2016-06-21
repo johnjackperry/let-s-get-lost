@@ -1,0 +1,169 @@
+#wrapper {
+    background-color: #ffffff;
+    overflow: auto;
+    z-index: 100;
+}
+
+.xpage {
+    position: fixed;
+    float: left;
+    padding: .25rem;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1.25rem;
+    width: 100%;
+    z-index: 20;
+    background: rgba(0,0,0,0.7);
+
+}
+
+body{
+    position: relative;
+    left:.25rem;
+    top: .25rem;
+    background-color: #424242;
+    z-index: 1;
+}
+
+
+.exhibitpic {
+    width: 40%;
+    height: 50%"height";
+    padding: .25rem;
+    float: left;
+}
+
+.exhibitpic_main {
+    width: 100%;
+    height: 50%"height";
+    padding: .25rem;
+    float: left;
+    margin-bottom: 2rem;
+}
+
+h1 { 
+    color: #ffffff;
+    font-family: 'Benton Sans Bold';
+    font-size: 2.66rem;
+    padding-left: .25rem;
+    margin-right: .25rem;
+}
+
+h2 { 
+    color: #000000;
+    font-family: 'Aleo Bold';
+    font-size: 1.25rem;
+    padding-left: .25rem;
+    margin-right: .25rem;
+}
+
+h3 {
+    color: #c5c5c5;
+    font-family: 'Benton Sans Bold';
+     margin-right: .25rem;
+}
+
+h4 {
+    color: #c5c5c5;
+    font-family: 'Benton Sans regular';
+    line-height: 140%;
+    margin-right: .25rem;
+}
+
+h5 {
+    color: #000000;
+    font-family: 'Benton Sans regular';
+    margin-left: 2rem;
+    line-height: 0rem;
+    margin-right: .25rem;
+}
+
+p {
+    color: #000000;
+    font-family: 'Benton Sans regular';
+    padding-left: .25rem;
+    margin-right: .25rem;
+}
+
+.p2 {
+    color: #000000;
+    font-family: 'Benton Sans regular';
+    padding-left: .25rem;
+    background-color: #ffffff;
+    overflow: auto;
+    z-index: 101; 
+    font-size: .80rem; 
+    line-height: 125%;
+    margin-right: .25rem;
+}
+
+.type {
+    color: #c50000;
+    font-family: 'Aleo Bold Italic';
+    padding-left: .15rem;
+    background-color: #ffffff;
+    overflow: auto;
+    z-index: 101; 
+    font-size: 1.2rem; 
+    margin-right: .25rem;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans regular';
+
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans regular';
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans regular';
+
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Benton Sans regular';
+
+}
+
+@font-face {
+    font-family: 'Benton Sans Bold';
+    src: url('fonts/BentonSans-Bold.otf');
+
+}
+
+
+@font-face {
+    font-family: 'Benton Sans Regular';
+    src: url('fonts/BentonSans-Regular.otf');
+
+}
+
+@font-face {
+    font-family: 'Aleo Light';
+    src: url('fonts/Aleo-Light.otf');
+}
+
+@font-face {
+    font-family: 'Aleo Bold';
+    src: url('fonts/Aleo-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Aleo Bold Italic';
+    src: url('fonts/Aleo-BoldItalic.otf');
+}

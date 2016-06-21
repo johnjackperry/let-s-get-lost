@@ -1,0 +1,106 @@
+.xpage {
+	position: fixed;
+    float: left;
+    padding: 1rem;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1.75rem;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    z-index: 20;
+}
+
+.background {
+z-index: auto;
+position: relative;
+
+}
+
+.getlost {
+z-index: 2;
+}
+
+.searchresultstop {
+        background-color: #ffffff;
+        text-align: center
+}
+
+.search_textright {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	float: right;
+	padding-right: 1rem;
+}
+
+.search_pictures {
+	float: left;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+
+h1 { 
+color: #ffffff;
+font-family: Arial;
+}
+
+h3 { 
+color: #ffffff;
+}
+
+h5 {
+color: #000000;
+font-family: Arial;    
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans regular';
+
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans regular';
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans regular';
+
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Benton Sans regular';
+
+}
+
+@font-face {
+    font-family: 'Benton Sans Bold';
+    src: url('fonts/BentonSans-Bold.otf');
+
+}
+
+
+@font-face {
+    font-family: 'Benton Sans Regular';
+    src: url('fonts/BentonSans-Regular.otf');
+
+}
+
+@font-face {
+    font-family: 'Aleo Light';
+    src: url('fonts/Aleo-Light.otf');
+}

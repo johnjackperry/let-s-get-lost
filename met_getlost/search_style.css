@@ -1,0 +1,38 @@
+.searchback {
+        background-color: #71605a;
+}
+
+.searchresultstop {
+        background-color: #ffffff;
+        text-align: center
+}
+
+.search_textright {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	float: right;
+	padding-right: 1rem;
+}
+
+.search_pictures {
+	float: left;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+
+h1 { 
+color: #ffffff;
+font-family: Arial;
+}
+
+h3 { 
+color: #ffffff;
+}
+
+h5 {
+color: #000000;
+font-family: Arial;    
+}

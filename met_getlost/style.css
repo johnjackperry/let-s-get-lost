@@ -1,0 +1,217 @@
+#wrapper {
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.menu-btn {
+    float: left;
+    position: relative;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    margin-top: .15rem;
+    position: inline;
+}
+ 
+.responsive-menu_A{
+    position: absolute;
+    top: 4rem;
+    z-index: 200;
+    background-color: #424242;
+    color: #ffffff;
+    text-align: left;
+    display: none;
+    padding-right: 2rem;
+    margin-left: .25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+
+.responsive-menu_B{
+    list-style: disc outside none;
+    position: fixed;
+    top: 4rem;
+    z-index: 3;
+    background-color: #424242;
+    color: #ffffff;
+    font-family: "Benton Sans Regular";
+    text-align: left;
+    display: none;
+    padding-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    list-style-type: none;
+
+}
+ 
+.expand {
+    display: block !important; 
+}
+
+body{
+    position: relative;
+    z-index: 6;
+    background-color: #c50000;
+
+}
+
+.getlost {
+    float:right;
+    margin-right: 3.5rem;
+    top: 100%;
+    z-index: 101; 
+    
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 50s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+.getlost_title {
+    float:right;
+    margin-top: .75rem;
+    top: 100%;
+    z-index: 100;
+    color: #ffffff;
+    font-family: 'Aleo Bold Italic';
+    text-align: right;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+
+.form {
+    position: relative;
+    left: 2rem;
+    top: 1.8rem;
+    width: 2rem;
+    z-index: 7;
+    font-family: 'Benton Sans Regular';
+}
+
+.exhibitpic {
+    width: 100%;
+    height: 50%"height";
+    padding-left: .25rem;
+    padding-right: .25rem;
+    padding-top: .25rem;
+    vertical-align;
+
+}
+
+h1 { 
+    color: #ffffff;
+    font-family: 'Benton Sans Bold';
+    font-size: 2.66rem;
+    padding-left: .25rem;
+}
+
+h2 { 
+    color: #ffffff;
+    font-family: 'Aleo Light';
+    font-size: 1.66rem;
+    padding-left: .25rem;
+
+}
+
+h3 {
+    color: #000000;
+    font-family: 'Benton Sans Bold';
+    font-size: 1.33rem;
+    background-color: #FFFFFF;
+    padding-left: 1rem;
+
+}
+
+h4 {
+    color: #000000;
+    font-family: 'Benton Sans Regular';
+    background-color: #FFFFFF;
+    padding-left: 1rem;
+    
+}
+
+
+p {
+    color: #c5c5c5;
+    font-family: 'Benton Sans Regular'; 
+    z-index: 13;   
+
+}
+
+.xpage {
+    float: left;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-family: 'Benton Sans Regular';
+    font-size: 1.5rem;
+    z-index: 15;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans Regular';
+    font-size: 1.33rem;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans Regular';
+    font-size: 1.33rem;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans Regular';
+    font-size: 1.33rem;
+}
+
+/* selected link */
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Benton Sans Regular';
+    font-size: 1.33rem;
+}
+
+@font-face {
+    font-family: 'Benton Sans Bold';
+    src: url('fonts/BentonSans-Bold.otf');
+
+}
+
+
+@font-face {
+    font-family: 'Benton Sans Regular';
+    src: url('fonts/BentonSans-Regular.otf');
+
+}
+
+@font-face {
+    font-family: 'Aleo Light';
+    src: url('fonts/Aleo-Light.otf');
+}
+
+@font-face {
+    font-family: 'Aleo Bold Italic';
+    src: url('fonts/Aleo-BoldItalic.otf');
+}
+
+ul
+{
+    font-family: "Benton Sans Regular";
+    list-style-type: none;
+}
